@@ -27,10 +27,8 @@ function persisteRehydrate({ payload }) {
 
 // eslint-disable-next-line consistent-return
 function* registerRequest({ payload }) {
-  console.log(payload);
   // eslint-disable-next-line no-unused-vars
   const { id, name, password, email } = payload;
-  console.log(name);
 
   try {
     if (id) {
